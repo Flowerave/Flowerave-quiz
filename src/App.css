@@ -3,7 +3,9 @@
 }
 
 .react-quiz-container {
-  width: fill;
+  width: 100%;
+  margin: 0;
+  padding: 1em;
 }
 
 .react-quiz-container .startQuizWrapper {
@@ -38,7 +40,10 @@
   color: white;
   border: none;
 }
-
+.questionModal {
+  position: absolute;
+  bottom: 0;
+}
 .react-quiz-container .questionModal .alert {
   padding: 20px;
   margin-bottom: 21px;
@@ -113,7 +118,9 @@
 .react-quiz-container .quiz-synopsis {
   margin: 0;
 }
-
+.quiz-result-filter {
+  display: none;
+}
 .react-quiz-container .quiz-result-filter {
    overflow: hidden;
    width: auto;

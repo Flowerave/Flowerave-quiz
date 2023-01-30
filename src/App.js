@@ -47,9 +47,10 @@ export const quiz = {
 };
 
 function App() {
+  
   return (
     <div className="App">
-      <Quiz quiz={quiz} showInstantFeedback={true} />
+      <Quiz quiz={quiz} showInstantFeedback={false} />
     </div>
   );
 }
