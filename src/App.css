@@ -63,7 +63,7 @@
   width: 100%;
   padding: .5em;
   border-radius: .5em;
-  border: 1px solid var(--tg-theme-hint-color);
+  border: 1px solid var(--tg-theme-hint-color) !important;
   color: var(--tg-theme-hint-color);
   background: none;
 }
@@ -84,13 +84,11 @@
 }
 
 .react-quiz-container .result-answer-wrapper h3 {
-    background-color: #fafafa;;
     opacity: 0.8;
-    color: rgba(0,0,0,0.9);
+    color: var(--tg-theme-hint-color);
     margin: 0px;
-    padding: 10px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    padding: .5em;
+    border-radius: 0;
 }
 
 .react-quiz-container .result-answer-wrapper .explanation {
