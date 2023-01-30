@@ -61,8 +61,8 @@
 
 .react-quiz-container .answerBtn {
   width: 100%;
-  color: var(--tg-theme-button-text-color);
-  background: var(--tg-theme-hint-color);
+  color: var(--tg-theme-hint-color);
+  background: none;
 }
 
 .react-quiz-container .selected {
@@ -112,7 +112,7 @@
    width: auto;
    border-radius: .5em;
    color: var(--tg-theme-link-color);
-   background-color: var(--tg-theme-hint-color);
+   background: none;
    margin: 0;
    padding: .5em;
    border: none;
