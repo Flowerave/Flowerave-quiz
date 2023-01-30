@@ -36,6 +36,7 @@
 .react-quiz-container .questionWrapper .btn.correct {
   background: green;
   color: white;
+  border: none;
 }
 
 .react-quiz-container .questionModal .alert {
