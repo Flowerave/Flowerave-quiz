@@ -3,7 +3,7 @@
 }
 
 .react-quiz-container {
-  width: 100%;
+  width: calc(100% - 2em);
   margin: 0;
   padding: 1em;
 }
